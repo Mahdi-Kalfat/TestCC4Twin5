@@ -1,0 +1,11 @@
+<div class="team-details">
+  <h2>{{ team.name }}</h2>
+  <p>Description: {{ team.description }}</p>
+  <h3>Participants:</h3>
+  <ul>
+    <li *ngFor="let participant of team.participants">
+      {{ participant.name }} - {{ participant.role }}
+    </li>
+  </ul>
+  <button (click)="editTeam()">Edit Team</button>
+</div>

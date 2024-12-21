@@ -1,0 +1,25 @@
+.content {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+}
+
+.team-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-item {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.team-item:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

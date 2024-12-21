@@ -1,0 +1,24 @@
+.content {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+h2 {
+  color: #333;
+}
+
+.team-details {
+  margin-top: 10px;
+}
+
+.participants-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.participants-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,42 @@
+/* Styles for the Form Team component */
+.form-team {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-team h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-team label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-team input,
+.form-team select,
+.form-team textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-team button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-team button:hover {
+    background-color: #0056b3;
+}
